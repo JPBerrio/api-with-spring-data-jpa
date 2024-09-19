@@ -10,6 +10,8 @@ Este proyecto es una API construida con Spring Data JPA, diseñada para demostra
 - **Modificación de Datos**: Permite crear, actualizar y eliminar registros en la base de datos de manera controlada y segura.
 - **Transacciones**: Usa anotaciones `@Transactional` para garantizar la correcta gestión de las transacciones y mantener la integridad de los datos.
 - **Auditoría**: Implementa mecanismos de auditoría para registrar y rastrear cambios realizados en los datos, facilitando el seguimiento y la gestión de la información.
+- **Seguridad**: Implementa Spring Security para gestionar la autenticación y autorización de usuarios de manera eficiente.
+- **JWT**: Utiliza JSON Web Tokens (JWT) para asegurar la comunicación entre el cliente y el servidor, permitiendo un enfoque seguro y stateless para la autenticación.
 
 ## Tecnologías Utilizadas
 
@@ -17,3 +19,5 @@ Este proyecto es una API construida con Spring Data JPA, diseñada para demostra
 - **Hibernate**: Como proveedor de JPA para la interacción con la base de datos.
 - **Spring Boot**: Para la configuración automática y la creación de la aplicación basada en Spring.
 - **PostgreSQL**: Base de datos utilizada.
+- **Spring Security**: Para gestionar la seguridad de la aplicación.
+- **JWT**: Para la autenticación y autorización de usuarios.
